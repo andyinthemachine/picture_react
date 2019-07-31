@@ -1,50 +1,62 @@
 [
   {
+    "id": 0,
+    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/1819_Scout75_WEB_1280x1280.jpg?v=1533326411",
+    "clicked": false
+  },
+  {
     "id": 1,
-    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/1819_Scout75_WEB_1280x1280.jpg?v=1533326411"
+    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/1819_Scout85_WEB_grande.jpg?v=1533326420",
+    "clicked": false
   },
   {
     "id": 2,
-    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/1819_Scout85_WEB_grande.jpg?v=1533326420"
+    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/Shaman_Chronicles_Topsheet_grande.jpg?v=1543612200",
+    "clicked": false
   },
   {
     "id": 3,
-    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/Shaman_Chronicles_Topsheet_grande.jpg?v=1543612200"
+    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/1819_Nomad95_WEB_grande.jpg?v=1533221399",
+    "clicked": false
   },
   {
     "id": 4,
-    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/1819_Nomad95_WEB_grande.jpg?v=1533221399"
+    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/1819_Pioneer109_WEB_wIcons_grande.jpg?v=1533326184",
+    "clicked": false
   },
   {
     "id": 5,
-    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/1819_Pioneer109_WEB_wIcons_grande.jpg?v=1533326184"
+    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/1819_Nomad105LITE_WEB_grande.jpg?v=1533325854",
+    "clicked": false
   },
   {
     "id": 6,
-    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/1819_Nomad105LITE_WEB_grande.jpg?v=1533325854"
+    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/1819_Nomad125_WEB_grande.jpg?v=1533765291",
+    "clicked": false
   },
   {
     "id": 7,
-    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/1819_Nomad125_WEB_grande.jpg?v=1533765291"
+    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/1819_Oracle100_WEB_wIcons_grande.jpg?v=1533326081",
+    "clicked": false
   },
   {
     "id": 8,
-    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/1819_Oracle100_WEB_wIcons_grande.jpg?v=1533326081"
+    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/1819_Maiden111_WEB_wIcons_grande.jpg?v=1533325148",
+    "clicked": false
   },
   {
     "id": 9,
-    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/1819_Maiden111_WEB_wIcons_grande.jpg?v=1533325148"
+    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/1819_Maiden101_WEB_wIcons_grande.jpg?v=1533325145",
+    "clicked": false
   },
   {
     "id": 10,
-    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/1819_Maiden101_WEB_wIcons_grande.jpg?v=1533325145"
+    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/1819_Maiden91_WEB_wIcons_grande.jpg?v=1533325141",
+    "clicked": false
   },
   {
     "id": 11,
-    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/1819_Maiden91_WEB_wIcons_grande.jpg?v=1533325141"
-  },
-  {
-    "id": 12,
-    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/1819_Oracle88_WEB_wIcons_grande.jpg?v=1533326078" 
+    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/1819_Oracle88_WEB_wIcons_grande.jpg?v=1533326078",
+    "clicked": false 
    }
 ]

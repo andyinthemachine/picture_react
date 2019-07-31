@@ -4,34 +4,63 @@ import React, { Component } from "react";
 import PictureCard from "./components/PictureCard";
 import Wrapper from "./components/Wrapper";
 import pictures from "./pictures.json";
+import GameInfo from "./components/GameInfo";
+
 const _ = require("lodash")
 
 class App extends Component {
   state = {
     pictures,
+    count: 0,
+    high_count: 0,
+    correct: true
   };
 
-  shufflePictures = () => {
-    this.setState({ pictures: _.shuffle(pictures) });
+  reset_clicked = () => {
+    this.setState({ pictures: this.state.pictures.map((item) => item.clicked = false) })
   }
+
+
+  handleElementClick = (id) => {
+
+    const newState = { ...this.state };
+
+    let found = false;
+    let i = 0;
+    while (!found && i < this.state.pictures.length) {
+      if (this.state.pictures[i].id === id) {
+        found = true;
+      }
+      else
+        i++;
+    }
+
+    if (this.state.pictures[i].clicked) {
+      this.reset_clicked();
+      newState.high_count = (Math.max(this.state.count, this.state.high_count));
+      newState.count = 0;
+      newState.correct = false;
+    }
+    else {
+      newState.pictures[i].clicked = true;
+      newState.count++;
+      newState.correct = true;
+    }
+
+    newState.pictures = _.shuffle(pictures);
+    this.setState(newState);
+  }
+
 
 
   render() {
     return (
       <>
-        <div class="jumbotron">
-          <h3 class="display-4">Icelantic skis game</h3>
-          <p class="lead">Try not to click the same skis twice!</p>
-          <hr class="my-4"></hr>
-          <span id="guessed">guessed</span>
-          <span id="score">score</span>
-          <span id="top-score">top score</span>
-        </div>
-
+        <GameInfo correct={this.state.correct} count={this.state.count} high_count={this.state.high_count} />
         <Wrapper>
           {this.state.pictures.map(picture => (
             <PictureCard
-              shufflePictures={this.shufflePictures}
+              handleElementClick={this.handleElementClick}
               id={picture.id}
               key={picture.id}
               image={picture.image}

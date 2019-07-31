@@ -5,7 +5,7 @@ function PictureCard(props) {
   return (
     <div className="card">
       <div className="img-container">
-        <img alt="ski-image" src={props.image} onClick={() => props.shufflePictures(props.id)} />
+        <img alt="" src={props.image} onClick={() => props.handleElementClick(props.id)} />
       </div>
     </div>
   );

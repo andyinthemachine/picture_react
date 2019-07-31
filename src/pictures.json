@@ -1,86 +1,50 @@
 [
   {
     "id": 1,
-    "name": "SpongeBob",
-    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/1819_Scout75_WEB_1280x1280.jpg?v=1533326411",
-    "occupation": "Fry Cook",
-    "location": "A Pineapple Under the Sea"
+    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/1819_Scout75_WEB_1280x1280.jpg?v=1533326411"
   },
   {
     "id": 2,
-    "name": "Mr. Krabs",
-    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/1819_Scout85_WEB_grande.jpg?v=1533326420",
-    "occupation": "Restaurant Owner",
-    "location": "A Giant Anchor"
+    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/1819_Scout85_WEB_grande.jpg?v=1533326420"
   },
   {
     "id": 3,
-    "name": "Squidward",
-    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/Shaman_Chronicles_Topsheet_grande.jpg?v=1543612200",
-    "occupation": "Cashier",
-    "location": "An Easter Island Head"
+    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/Shaman_Chronicles_Topsheet_grande.jpg?v=1543612200"
   },
   {
     "id": 4,
-    "name": "Dexter",
-    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/1819_Nomad95_WEB_grande.jpg?v=1533221399",
-    "occupation": "Boy Genius",
-    "location": "A Secret Laboratory"
+    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/1819_Nomad95_WEB_grande.jpg?v=1533221399"
   },
   {
     "id": 5,
-    "name": "Courage",
-    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/1819_Pioneer109_WEB_wIcons_grande.jpg?v=1533326184",
-    "occupation": "A Cowardly Dog",
-    "location": "Nowhere, Kansas"
+    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/1819_Pioneer109_WEB_wIcons_grande.jpg?v=1533326184"
   },
   {
     "id": 6,
-    "name": "Doug Funnie",
-    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/1819_Nomad105LITE_WEB_grande.jpg?v=1533325854",
-    "occupation": "Student",
-    "location": "Bluffington"
+    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/1819_Nomad105LITE_WEB_grande.jpg?v=1533325854"
   },
   {
     "id": 7,
-    "name": "Bugs Bunny",
-    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/1819_Nomad125_WEB_grande.jpg?v=1533765291",
-    "occupation": "Looney Toon",
-    "location": "A Rabbit Burrow"
+    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/1819_Nomad125_WEB_grande.jpg?v=1533765291"
   },
   {
     "id": 8,
-    "name": "Johnny Bravo",
-    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/1819_Oracle100_WEB_wIcons_grande.jpg?v=1533326081",
-    "occupation": "Ladies Man",
-    "location": "Aron City"
+    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/1819_Oracle100_WEB_wIcons_grande.jpg?v=1533326081"
   },
   {
     "id": 9,
-    "name": "Tommy Pickles",
-    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/1819_Maiden111_WEB_wIcons_grande.jpg?v=1533325148",
-    "occupation": "Adventurer",
-    "location": "California"
+    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/1819_Maiden111_WEB_wIcons_grande.jpg?v=1533325148"
   },
   {
     "id": 10,
-    "name": "Rocko",
-    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/1819_Maiden101_WEB_wIcons_grande.jpg?v=1533325145",
-    "occupation": "Cashier",
-    "location": "O-Town, California"
+    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/1819_Maiden101_WEB_wIcons_grande.jpg?v=1533325145"
   },
   {
     "id": 11,
-    "name": "Captain Planet",
-    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/1819_Maiden91_WEB_wIcons_grande.jpg?v=1533325141",
-    "occupation": "Superhero",
-    "location": "Earth"
+    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/1819_Maiden91_WEB_wIcons_grande.jpg?v=1533325141"
   },
   {
     "id": 12,
-    "name": "Ickis",
-    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/1819_Oracle88_WEB_wIcons_grande.jpg?v=1533326078",
-    "occupation": "Ahhhh! A Real Monster!",
-    "location": "Under a City Dump"
-  }
+    "image": "https://cdn.shopify.com/s/files/1/0864/0810/products/1819_Oracle88_WEB_wIcons_grande.jpg?v=1533326078" 
+   }
 ]

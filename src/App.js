@@ -1,26 +1,39 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+import React, { Component } from "react";
+import PictureCard from "./components/PictureCard";
+import Wrapper from "./components/Wrapper";
+import Title from "./components/Title";
+import pictures from "./pictures.json";
+
+class App extends Component {
+  state = {
+    pictures
+  };
+
+  removePicture = id => {
+    const pictures = this.state.pictures.filter(picture => picture.id !== id);
+    this.setState({ pictures });
+  };
+
+  render() {
+    return (
+      <Wrapper>
+        {this.state.pictures.map(picture => (
+          <PictureCard
+            removePicture={this.removePicture}
+            id={picture.id}
+            key={picture.id}
+            name={picture.name}
+            image={picture.image}
+            occupation={picture.occupation}
+            location={picture.location}
+          />
+        ))}
+      </Wrapper>
+    );
+  }
 }
 
 export default App;
+

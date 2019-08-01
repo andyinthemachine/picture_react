@@ -44,7 +44,14 @@ class App extends Component {
     else {
       newState.pictures[i].clicked = true;
       newState.count++;
-      newState.message = "Unique!";
+      if (newState.count === this.state.pictures.length) {
+        this.reset_clicked();
+        newState.high_count = this.state.pictures.length;
+        newState.count = 0;
+        newState.message = "You got them all!";
+      }
+      else
+        newState.message = "Unique!";
     }
 
     newState.pictures = _.shuffle(pictures);

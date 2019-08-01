@@ -13,7 +13,7 @@ class App extends Component {
     pictures,
     count: 0,
     high_count: 0,
-    correct: true
+    message: ""
   };
 
   reset_clicked = () => {
@@ -39,24 +39,22 @@ class App extends Component {
       this.reset_clicked();
       newState.high_count = (Math.max(this.state.count, this.state.high_count));
       newState.count = 0;
-      newState.correct = false;
+      newState.message = "Repeat!";
     }
     else {
       newState.pictures[i].clicked = true;
       newState.count++;
-      newState.correct = true;
+      newState.message = "Unique!";
     }
 
     newState.pictures = _.shuffle(pictures);
     this.setState(newState);
   }
 
-
-
   render() {
     return (
       <>
-        <GameInfo correct={this.state.correct} count={this.state.count} high_count={this.state.high_count} />
+        <GameInfo message={this.state.message} count={this.state.count} high_count={this.state.high_count} />
         <Wrapper>
           {this.state.pictures.map(picture => (
             <PictureCard
